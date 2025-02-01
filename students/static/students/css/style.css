@@ -1,0 +1,160 @@
+/* General Styles */
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #34495e;
+    --accent-color: #3498db;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.main-content {
+    margin-bottom: 100px;
+    min-height: calc(100vh - 180px);
+}
+
+/* Navbar Styles */
+.header {
+    background: var(--primary-color);
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.nav-link {
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--accent-color) !important;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer Styles */
+.footer {
+    background: var(--primary-color);
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Button Styles */
+.btn {
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+/* ID Card Styles */
+.id-card {
+    background: linear-gradient(145deg, #ffffff, #f3f3f3);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.id-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.id-header {
+    background: linear-gradient(145deg, #2c3e50, #3498db);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 4px solid #2980b9;
+}
+
+.id-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: -60px auto 10px;
+    position: relative;
+    background: #fff;
+}
+
+.student-info {
+    padding: 1rem;
+}
+
+.student-detail {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+    background-color: rgba(52, 152, 219, 0.1);
+}
+
+.student-detail i {
+    color: #2c3e50;
+    width: 20px;
+}
+
+.id-footer {
+    background: #f8f9fa;
+    border-top: 1px solid #eee;
+    padding: 1rem;
+    text-align: center;
+}
+
+.student-id {
+    font-family: 'Courier New', monospace;
+    letter-spacing: 2px;
+    color: #666;
+}
+
+/* Table Styles */
+.table {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Alert Styles */
+.alert {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Page Header */
+.page-header {
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--accent-color);
+}
